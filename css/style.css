@@ -54,6 +54,8 @@ h3 {
 }
 
 
+
+
 /*CLASSES*/
 
 .logo {
@@ -292,6 +294,106 @@ img#album {
 }
 .termos a{
   text-decoration: underline;
+}
+
+.rodape .logo{
+  width: 100px;
+  margin-left: -600px;
+  margin-top:45px;
+}
+footer{
+  position: relative;
+  top:500px;
+  background-color: #000000;
+  color:#ffffff;
+  height: 500px;
+  width: 100%;
+}
+
+footer div{
+  height: 500px;
+  width: auto;
+  padding:0px;
+}
+footer div ul{
+  font-size: 13px;
+}
+
+.emp{
+  position:relative;
+    /* border: 2px solid white; */
+  width: 100px;
+  height: 200px;
+  top: -120px;
+  right: -220px;
+}
+
+.emp li{
+  padding-bottom:30px;
+}
+
+.com{
+  position:relative;
+  /* border: 2px solid white; */
+  width: 200px;
+  height: 200px;
+  top: -223px;
+  right: -420px;
+}
+
+.com li{
+  padding-bottom:30px;
+}
+
+.lik{
+  position:relative;
+  /* border: 2px solid white; */
+  width: 200px;
+  height: 200px;
+  top: -424px;
+  right: -720px;
+}
+
+
+.lik li{
+  padding-bottom:30px;
+}
+
+.ti{
+  color: grey;
+  text-transform: uppercase;
+  text-decoration: bold;
+}
+
+.info{
+  position:absolute;
+  /* border: 2px solid white; */
+  width: 300px;
+  height: 20px;
+  margin-top: -300px;
+  right: 990px;
+  color: grey;
+}
+
+.info li{
+  font-size:11px;
+  padding-left:15px;
+  float: left;
+}
+
+.copy{
+  position: absolute;
+  color: grey;
+  /* border: 2px solid white; */
+  left: 1120px;
+  top:440px;
+}
+
+.redes{
+  position: absolute;
+  width: 250px;
+  margin-left: 1050px;
+  top:50px;
 }
 
  .guia {
